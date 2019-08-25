@@ -1,7 +1,7 @@
 # Python Data Science Handbook
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/htapia/IntroCienciaDatosFisUV/blob/master/notebooks/Index.ipynb)
 
 This repository contains the entire [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do), in the form of (free!) Jupyter notebooks.
 
@@ -13,7 +13,7 @@ This repository contains the entire [Python Data Science Handbook](http://shop.o
 
 - Run the code using the Jupyter notebooks available in this repository's [notebooks](notebooks) directory.
 
-- Launch executable versions of these notebooks using [Google Colab](http://colab.research.google.com): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
+- Launch executable versions of these notebooks using [Google Colab](http://colab.research.google.com): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/htapia/IntroCienciaDatosFisUV/blob/master/notebooks/Index.ipynb)
 
 - Launch a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
 
@@ -27,7 +27,7 @@ The book introduces the core libraries essential for working with data in Python
 Familiarity with Python as a language is assumed; if you need a quick introduction to the language itself, see the free companion project,
 [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython): it's a fast-paced introduction to the Python language aimed at researchers and scientists.
 
-See [Index.ipynb](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb) for an index of the notebooks available to accompany the text.
+See [Index.ipynb](http://nbviewer.jupyter.org/github/htapia/IntroCienciaDatosFisUV/blob/master/notebooks/Index.ipynb) for an index of the notebooks available to accompany the text.
 
 ## Software
 
