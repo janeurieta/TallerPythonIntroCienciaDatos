@@ -2,7 +2,7 @@
 
 # Taller de Python Data Challenge Industrial
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/htapia/IntroCienciaDatosFisUV/blob/master/notebooks/Index.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/htapia/TallerPythonIntroCienciaDatos/blob/master/notebooks/Index.ipynb)
 
 Este repositorio contiene las libretas para el Taller de Python Data Challenge Industrial que se lleva a cabo como parte del evento [Data Challenge Industrial 4.0](www.lania.mx/dci). El material está basado en el libro [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) de Jake VanderPlas; el contenido original está disponible [en GitHub](https://github.com/jakevdp/PythonDataScienceHandbook).
 
