@@ -10,11 +10,14 @@ BOOK_COMMENT = "<!--BOOK_INFORMATION-->"
 
 
 BOOK_INFO = BOOK_COMMENT + """
-<img align="left" style="padding-right:10px;" src="figures/PDSH-cover-small.png">
+<img align="left" style="padding-right:10px;" src="figures/header.png">
 
-*This notebook contains an excerpt from the [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) by Jake VanderPlas; the content is available [on GitHub](https://github.com/jakevdp/PythonDataScienceHandbook).*
-
-*The text is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), and code is released under the [MIT license](https://opensource.org/licenses/MIT). If you find this content useful, please consider supporting the work by [buying the book](http://shop.oreilly.com/product/0636920034919.do)!*"""
+*Esta libreta contiene material del Taller de Python que se lleva a cabo como parte del 
+evento [Data Challenge Industrial 4.0](www.lania.mx/dci). El material ha sido adaptado 
+por HTM y GED a partir del libro [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) 
+de Jake VanderPlas y se mantiene la licencia sobre el texto, 
+[CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), 
+y sobre el codigo [MIT license](https://opensource.org/licenses/MIT).*"""
 
 
 def add_book_info():

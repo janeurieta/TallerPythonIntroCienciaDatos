@@ -14,14 +14,14 @@ def prev_this_next(it):
     return zip(itertools.chain([None], a), b, itertools.chain(c, [None]))
 
 
-PREV_TEMPLATE = "< [{title}]({url}) "
-CONTENTS = "| [Contents](Index.ipynb) |"
-NEXT_TEMPLATE = " [{title}]({url}) >"
+PREV_TEMPLATE = u"< [{title}]({url}) "
+CONTENTS = "| [Contenido](Index.ipynb) |"
+NEXT_TEMPLATE = u" [{title}]({url}) >"
 NAV_COMMENT = "<!--NAVIGATION-->\n"
 
 COLAB_LINK = """
 
-<a href="https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/{notebook_filename}"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
+<a href="https://colab.research.google.com/github/htapia/TallerPythonIntroCienciaDatos/blob/master/notebooks/{notebook_filename}"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
 """
 
 

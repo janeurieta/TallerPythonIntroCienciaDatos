@@ -6,11 +6,11 @@ import nbformat
 NOTEBOOK_DIR = os.path.join(os.path.dirname(__file__), '..', 'notebooks')
 
 CHAPTERS = {"00": "Preface",
-            "01": "IPython: Beyond Normal Python",
-            "02": "NumPy",
-            "03": "Pandas",
-            "04": "Matplotlib",
-            "05": "Machine Learning"}
+#             "01": "IPython: Beyond Normal Python",
+            "01": "NumPy",
+            "02": "Pandas",
+#             "04": "Matplotlib",
+            "03": "Machine Learning"}
 
 REG = re.compile(r'(\d\d)\.(\d\d)-(.*)\.ipynb')
 
@@ -34,6 +34,7 @@ def gen_contents(directory=None):
             nb_url = nb
         chapter, section, title = REG.match(nb).groups()
         title = get_notebook_title(nb)
+        title = title.encode('utf-8')
         if section == '00':
             if chapter in ['00', '06']:
                 yield '\n### [{0}]({1})'.format(title, nb_url)
@@ -51,4 +52,4 @@ def print_contents(directory=None):
 if __name__ == '__main__':
     print_contents()
     print('\n', 70 * '#', '\n')
-    print_contents('http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/')
+    print_contents('http://nbviewer.jupyter.org/github/htapia/TallerPythonIntroCienciaDatos/blob/master/notebooks/')
