@@ -51,7 +51,7 @@ def copy_notebooks():
     shutil.copytree(figsource, figdest)
 
     figurelist = os.listdir(abspath_from_here('content', 'figures'))
-    figure_map = {os.path.join('figures', fig) : os.path.join('/PythonDataScienceHandbook/figures', fig)
+    figure_map = {os.path.join('figures', fig) : os.path.join('/TallerPythonIntroCienciaDatos/figures', fig)
                   for fig in figurelist}
 
     for nb in nblist:
@@ -67,7 +67,7 @@ def copy_notebooks():
             # content[2] is the license
             cells = '1:'
             template = 'page'
-            title = 'Python Data Science Handbook'
+            title = 'Taller de Python Data Challenge Industrial'
             content.cells[2].source = INTRO_TEXT
         else:
             # content[0] is the book information
