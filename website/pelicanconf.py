@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Jake VanderPlas'
-SITENAME = 'Python Data Science Handbook'
-SITESUBTITLE = u'Essential Tools for Working with Data'
+AUTHOR = 'HTM'
+SITENAME = 'TallerPythonIntroCienciaDatos'
+SITESUBTITLE = u'Essentials'
 SITEURL = ''
-SITESUBURL = 'PythonDataScienceHandbook/'
+SITESUBURL = 'TallerPythonIntroCienciaDatos/'
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'en'
@@ -51,12 +51,12 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 THEME = './theme/'
 
 ABOUT_PAGE = '/pages/about.html'
-TWITTER_USERNAME = 'jakevdp'
-GITHUB_USERNAME = 'jakevdp'
-STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/2937831/jakevdp'
-AUTHOR_WEBSITE = 'http://vanderplas.com'
-AUTHOR_BLOG = 'http://jakevdp.github.io'
-AUTHOR_CV = "http://staff.washington.edu/jakevdp/media/pdfs/CV.pdf"
+TWITTER_USERNAME = 'htapia'
+GITHUB_USERNAME = 'htapia'
+# STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/2937831/jakevdp'
+# AUTHOR_WEBSITE = 'http://vanderplas.com'
+AUTHOR_BLOG = 'http://htapia.github.io'
+# AUTHOR_CV = "http://staff.washington.edu/jakevdp/media/pdfs/CV.pdf"
 SHOW_ARCHIVES = True
 SHOW_FEED = False  # Need to address large feeds
 

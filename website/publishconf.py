@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://jakevdp.github.io/PythonDataScienceHandbook'
+SITEURL = 'http://htapia.github.io/TallerPythonIntroCienciaDatos'
 RELATIVE_URLS = False
 
 SHOW_FEED = False
