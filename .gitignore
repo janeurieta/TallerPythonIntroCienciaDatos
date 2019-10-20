@@ -104,3 +104,6 @@ notebooks/hello.png
 # Original notebooks 
 notebooks_copy
 notebooks/notUsed
+
+# pdfs
+*.pdf
