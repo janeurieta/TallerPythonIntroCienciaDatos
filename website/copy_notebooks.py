@@ -14,12 +14,13 @@ Template: {template}
 {{% notebook notebooks/{notebook_file} cells[{cells}] %}}
 """
 
-INTRO_TEXT = """This website contains the full text of the [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) by Jake VanderPlas; the content is available [on GitHub](https://github.com/jakevdp/PythonDataScienceHandbook) in the form of Jupyter notebooks.
-
-The text is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), and code is released under the [MIT license](https://opensource.org/licenses/MIT).
-
-If you find this content useful, please consider supporting the work by [buying the book](http://shop.oreilly.com/product/0636920034919.do)!
-"""
+INTRO_TEXT = """
+Est sitio contiene material del Taller de Python que se lleva a cabo como parte del 
+evento [Data Challenge Industrial 4.0](www.lania.mx/dci). El contenido ha sido adaptado 
+por HTM y GED a partir del libro [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) 
+de Jake VanderPlas y se mantiene la licencia sobre el texto, 
+[CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), 
+y sobre el codigo [MIT license](https://opensource.org/licenses/MIT)."""
 
 
 def abspath_from_here(*args):
@@ -79,6 +80,7 @@ def copy_notebooks():
             if not title.startswith('#') or len(title.splitlines()) > 1:
                 raise ValueError('title not found in third cell')
             title = title.lstrip('#').strip()
+            title = title.encode('utf-8')
 
             # put nav below title
             content.cells.insert(0, content.cells.pop(2))
