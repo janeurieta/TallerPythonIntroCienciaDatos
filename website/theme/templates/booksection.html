@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block headerimg %}{% if page.headerimg %}{{ page.headerimg }}{% else %}{{ DEFAULT_HEADER_BG }}{% endif %}{% endblock %}
+
+{% block content %}
+
+<div class="container bookinfo">
+<p>
+<img align="left" style="padding-right:10px;" src="/TallerPythonIntroCienciaDatos/figures/header.png">
+<em>Esta pagina contiene el material del Taller de Python que se lleva a cabo como parte del 
+evento [Data Challenge Industrial 4.0](www.lania.mx/dci). El contenido ha sido adaptado 
+por HTM y GED a partir del libro [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do).</em>
+</p>
+<p>
+<em> Se mantiene la licencia <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode">CC-BY-NC-ND license</a> sobre el texto, y <a href="https://opensource.org/licenses/MIT">MIT license</a> para el codigo.</em>
+</p>
+</div>
+
+
+<div class="container post">
+
+    <article>
+        <header>
+            <h1>{{ page.title }}</h1>
+            {% if page.date %}
+                <time datetime="page.date.isoformat()" pubdate>{{ page.locale_date }}</time>
+            {% endif %}
+        </header>
+
+        <div class="article_content">
+            {{ page.content }}
+        </div>
+
+    </article>
+</div>
+{% endblock %}
