@@ -10,7 +10,7 @@ BOOK_COMMENT = "<!--BOOK_INFORMATION-->"
 
 
 BOOK_INFO = BOOK_COMMENT + """
-<img align="left" style="padding-right:10px;" src="figures/header.png">
+<img align="left" style="padding-right:10px;" src="figures/header_small.png">
 
 *Esta libreta contiene material del Taller de Python que se lleva a cabo como parte del 
 evento [Data Challenge Industrial 4.0](www.lania.mx/dci). El contenido ha sido adaptado 
