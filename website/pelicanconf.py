@@ -66,5 +66,5 @@ STATIC_PATHS = ['images', 'figures', 'videos', 'downloads', 'favicon.ico']
 
 # Footer info
 
-LICENSE_URL = "https://github.com/jakevdp/jakevdp.github.io-source/blob/master/LICENSE"
+LICENSE_URL = "https://github.com/htapia/htapia.github.io-source/blob/master/LICENSE"
 LICENSE = "MIT"
